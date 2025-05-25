@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(rgb(68, 65, 11) , rgb(94, 27, 27));
+    background: linear-gradient(rgb(67, 67, 67) , rgb(45, 45, 45));
     min-height: 99vh;
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -40,9 +40,9 @@ body{
     margin-top: 20px;
 }
 
-.menu__item{
+/* .menu__item{
     margin-right: 20px;
-}
+} */
 
 .menu__item:hover{
     border-bottom: 1px solid white;
@@ -50,20 +50,60 @@ body{
     transition: 1000ms;
 }
 
-.main{
+.rycu{
     max-width: 1920px;
     width: 1010px;
     margin: 0 auto;
+    display: flex;
+    margin-right: 100px;
 }
 
-.contacts{
+.rycuP{
+    max-width: 1920px;
+    width: 1010px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.noshniciP{
+    background-color: rgb(118, 118, 118);
+    border: 2px solid white;
+    margin-top: auto;
+    border-radius: 40px;
+    padding: 30px;
+    width: 120px;
+    margin-right: auto;
+}
+
+.bumagaP{
+    background-color: rgb(118, 118, 118);
+    border: 2px solid white;
+    margin-top: auto;
+    border-radius: 40px;
+    padding: 30px;
+    width: 120px;
+    margin-right: auto;
+}
+
+.camenP{
+    background-color: rgb(118, 118, 118);
+    border: 2px solid white;
+    margin-top: auto;
+    border-radius: 40px;
+    padding: 30px;
+    width: 120px;
+    margin-right: auto;
+        initial-value: rt;
+}
+
+/* .contacts{
     background-color: rgb(87, 72, 72);
     border: 2px solid white;
     margin-top: 40px;
     border-radius: 20px;
     padding: 30px;
     width: 400px;
-}
+} */
 
 
 .contacts:nth-child(2){
@@ -72,4 +112,17 @@ body{
 .main__container{
     display: flex;
     justify-content: space-between;
+}
+
+.camenP:hover{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(149, 122, 122);
+}
+.bumagaP:hover{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(149, 122, 122);
+}
+.noshniciP:hover{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(149, 122, 122);
 }

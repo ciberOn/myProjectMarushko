@@ -11,17 +11,36 @@
 <body>
     <header class="header">
         <div class="header__container">
-            <div class="logo">Artem🤡</div>
+            <div class="logo"><h1>Rock, Paper, Scissors</h1></div>
+            <!-- <div class="logo">I'm fififafa20</div>
             <ul class="header__menu">
                 <li class="menu__item">Main</li>
                 <li class="menu__item">Contacts</li>
                 <li class="menu__item">About me</li>
                 <li class="menu__item">Game</li>
             </ul>
-        </div>
+        </div> -->
     </header>
-    <div class="main">
-        <div class="contacts">
+<div class="ryca">
+    <div class="rycu">
+        <div class = "rycaP">
+             <img id="rycaP" src="./rycaP.png" onclick="imgsrc();">
+        <script language="javascript">
+            var i=0;
+            var image=document.getElementById("rycaP");
+            var imgs=new Array('./camen.png', './noshnici.png', './bumaga.png');
+            function imgsrc() {
+                i++;
+                image.src=imgs[i];
+            }
+          </script>
+        </div>
+        <div class = "rycaV">
+            <img src="./rycaV.png">
+        </div>
+    </div>
+    <div class="rycuP">
+        <!-- <div class="contacts">
             <h1>Contacts</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, commodi nulla. Suscipit officia quod a
                 quo cumque debitis distinctio expedita soluta tempora. Animi excepturi facilis repellat cum quibusdam,
@@ -36,9 +55,23 @@
             <p>The lion, the king of beasts, has always aroused admiration in people with its power, grace and majesty.
                 Its image is sung in myths and legends, and its mighty roar is known to everyone, from small children to wise elders.
                 In the savannas of Africa, where it rules, the lion occupies the top of the food chain, being an unrivaled predator.</p>
-
+        </div> -->
+        
+        <div class="camenP">
+            <button id="rock" onclick="handleClick('rock')">Rock</button>
+            <img src="./camen.png" width="50" height="50" alt="tt">
+        </div>
+        <div class="bumagaP">
+            <button id="paper" onclick="handleClick('paper')">Paper</button>
+            <img src="./bumaga.png" width="50" height="50" alt="tt">
+        </div>
+        <div class="noshniciP">
+            <button id="scissors" onclick="handleClick('scissors')">Scissors</button>
+            <img src="./noshnici.png" width="40" height="50" alt="tt">
         </div>
     </div>
+</div>
+
     <div class="main"></div>
     <footer class="footer"></footer>
 </body>
